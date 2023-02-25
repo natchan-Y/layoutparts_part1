@@ -1,1 +1,36 @@
 @charset "UTF-8";
+
+
+.cell--table{
+border-collapse: collapse;
+border: solid 1px;
+width: 100%;
+vertical-align: baseline;
+background: #d5ffc7;
+}
+
+.tr,th,td{
+padding: 10px 10px;
+border: 1px solid #000000;
+font-size: 18px;
+line-height: 22px;
+}
+
+.cell--table thead{
+background: #319c4a;
+line-height: 26px;
+}
+
+.cell--table td:first-child{
+  background: #319c4a;
+  line-height: 26px;
+  text-align: center;
+}
+
+.cell--table tr:nth-child(even){
+background: #bcbcbc;
+}
+
+.cell--table tbody tr:last-child{
+border-top: 1px double rgb(255, 255, 255);
+}
